@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,
+li {
+    list-style: none;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+body {
+    /* background-image: url(../images/bg2.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 500px; */
+    background: url("../images/bg2.png") no-repeat top right / 2gi00px;
+    background-attachment: fixed;
+}
+#bg1,#bg2,#bg3{
+width: 400px;
+height: 250px;
+padding: 20px;
+border: 20px solid rgba(204, 204, 204, 0.5);
+margin-bottom: 20px;
+background: url(../images/bg3.png)no-repeat right top;
+}
+#bg1{
+    /* 배경이미지 적용 범위를 조절 */
+    background-origin: content-box;
+}
+#bg2{
+    /* 배경이미지 적용 범위를 조절 */
+    background-origin: border-box;
+}
+#bg3{
+    /* 배경이미지 적용 범위를 조절 */
+    background-origin: padding-box;
+}
