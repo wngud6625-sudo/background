@@ -1,0 +1,45 @@
+@import url("reset.css");
+.search {
+    padding: 10px 25px;
+    /* 버튼은 보통 너비값을 안주고 패딩을 줌 > 너비값주면 글자 튕김 */
+    background: url("../images/magnifying-glass-solid.png") no-repeat;
+    background-size: 20px;
+    background-position: left;
+}
+.search2 {
+    padding: 10px 25px;
+    /* 버튼은 보통 너비값을 안주고 패딩을 줌 > 너비값주면 글자 튕김 */
+    background: url("../images/book-icon.png") no-repeat;
+    background-size: 20px;
+    background-position: left bottom;
+}
+.product {
+    width: 250px;
+    height: 250px;
+    background: url(../images/shose-removebg-preview\ 1.png) no-repeat center;
+    background-size: 200px;
+    border: 1px solid #333;
+    background-origin: content-box;
+    padding: 20px;
+    position: relative;
+}
+.product h3 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.product2 {
+    width: 250px;
+    height: 250px;
+    background: url("../images/attachment/bg3.jpg") no-repeat center;
+    background-size: cover;
+    border: 1px solid #333;
+    position: relative;
+
+}
+.product2 h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
